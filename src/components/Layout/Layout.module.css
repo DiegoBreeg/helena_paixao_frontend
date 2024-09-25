@@ -1,7 +1,10 @@
-.layout {
-    width: 100%;
-    min-height: 100vh;
-    display: grid;    
-    grid-template-rows: auto 1fr auto; /* Header, Main, Footer */
-    background-color: blue;
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+}
+
+.item {    
+    background-color: aqua;
+    margin: 20px;
 }
