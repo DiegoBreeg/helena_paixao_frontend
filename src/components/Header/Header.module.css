@@ -1,19 +1,19 @@
 .header {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; /* Divide em três colunas */
     align-items: center; /* Centraliza verticalmente */
-    justify-content: space-between; /* Espaça os elementos */
     padding: 10px 20px;
     background-color: #dda0dd;
     color: white;
 }
 
 .left {
-    flex: 1; /* A parte esquerda ocupa um espaço fixo */
+    /* Estilo adicional, se necessário */
 }
 
 .middle {
-    flex: 2; /* A parte do meio ocupa um espaço maior */
-    margin: 0 20px; /* Adiciona espaçamento lateral */
+    /* Adiciona um pouco de padding para evitar sobreposição */
+    padding: 0 10px; /* Ajuste conforme necessário */
 }
 
 .right {
@@ -30,9 +30,11 @@
     padding: 5px; /* Padding interno */
     border: none; /* Remove borda */
     border-radius: 5px; /* Bordas arredondadas */
+    box-sizing: border-box; /* Inclui padding e borda na largura total */
 }
 
 nav a {
     color: white;
     text-decoration: none; /* Remove sublinhado */
+    white-space: nowrap; /* Impede que os links quebrem linha */
 }
