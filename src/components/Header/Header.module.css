@@ -2,9 +2,14 @@
     display: grid;
     grid-template-columns: 1fr 2fr 1fr; /* Divide em três colunas */
     align-items: center; /* Centraliza verticalmente */
-    padding: 10px 20px;
+    padding: 10px 20px; /* Espaçamento interno */
     background-color: #dda0dd;
     color: white;
+    width: 100%; /* Garante que o header ocupe toda a largura */
+    position: fixed; /* Fixa o header na parte superior */
+    top: 0; /* Alinha na parte superior */
+    left: 0; /* Alinha à esquerda */
+    z-index: 1000; /* Garante que o header fique acima de outros elementos */
 }
 
 .left {
@@ -12,8 +17,7 @@
 }
 
 .middle {
-    /* Adiciona um pouco de padding para evitar sobreposição */
-    padding: 0 10px; /* Ajuste conforme necessário */
+    padding: 0 10px; /* Ajuste para evitar sobreposição */
 }
 
 .right {
@@ -30,7 +34,6 @@
     padding: 5px; /* Padding interno */
     border: none; /* Remove borda */
     border-radius: 5px; /* Bordas arredondadas */
-    box-sizing: border-box; /* Inclui padding e borda na largura total */
 }
 
 nav a {

@@ -1,0 +1,7 @@
+.layout {
+    display: grid;
+    grid-template-rows: auto 1fr auto; /* Header, main content, footer */
+    min-height: 100vh; /* Garante que o layout ocupe a altura total da tela */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove preenchimento padrão */
+}
