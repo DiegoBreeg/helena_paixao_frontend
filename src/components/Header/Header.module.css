@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: space-between; /* Espaça os elementos */
+    padding: 10px 20px;
+    background-color: #dda0dd;
+    color: white;
+}
+
+.left {
+    flex: 1; /* A parte esquerda ocupa um espaço fixo */
+}
+
+.middle {
+    flex: 2; /* A parte do meio ocupa um espaço maior */
+    margin: 0 20px; /* Adiciona espaçamento lateral */
+}
+
+.right {
+    display: flex; /* Flexbox para os links */
+    gap: 15px; /* Espaço entre os links */
+}
+
+.logo {
+    height: 40px; /* Ajuste a altura conforme necessário */
+}
+
+.searchbar {
+    width: 100%; /* Faz a barra de busca ocupar toda a largura disponível */
+    padding: 5px; /* Padding interno */
+    border: none; /* Remove borda */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+nav a {
+    color: white;
+    text-decoration: none; /* Remove sublinhado */
+}
