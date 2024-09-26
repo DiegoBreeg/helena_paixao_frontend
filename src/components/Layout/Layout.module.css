@@ -1,10 +1,11 @@
-.container {
+.layout
+{
+    background-color: #F2F3F4;
     display: grid;
-    grid-template-columns: 1fr 2fr;
-
-}
-
-.item {    
-    background-color: aqua;
-    margin: 20px;
+    height: 100vh;
+    grid-template-rows: 60px auto 80px;    
+    grid-template-areas:
+        'header'
+        'main'
+        'footer';
 }

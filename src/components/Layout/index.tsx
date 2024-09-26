@@ -1,18 +1,15 @@
-import styles from "./Layout.module.css"
+import styles from './Layout.module.css'
+import { Header } from '../Header'
+import { Footer } from '../Footer'
+import { Main } from '../Main'
 
 export function Layout()
 {
     return (
-        <div className={styles.container}>
-            <div className={styles.item}>item</div>
-            <div className={styles.item}>item</div>
-            <div className={styles.item}>item</div>
-            <div className={styles.item}>item</div>
-            <div className={styles.item}>item</div>
-            <div className={styles.item}>item</div>
-            <div className={styles.item}>item</div>
-            <div className={styles.item}>item</div>
-            <div className={styles.item}>item</div>
+        <div className={styles.layout}>
+            <Header />
+            <Main />
+            <Footer />
         </div>
     )
 }
