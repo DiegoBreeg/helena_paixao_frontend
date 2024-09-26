@@ -1,6 +1,6 @@
 .layout {
     background-color: #F2F3F4;
     display: grid;
-    grid-template-rows: 60px auto 80px;
+    grid-template-rows: 100px auto 80px;
 
 }
