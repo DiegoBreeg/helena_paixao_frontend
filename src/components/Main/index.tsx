@@ -11,17 +11,7 @@ export function Main()
             <ProductCard />                   
             <ProductCard />                   
             <ProductCard />                   
-            <ProductCard />                   
-            <ProductCard />                   
-            <ProductCard />                   
-            <ProductCard />                   
-            <ProductCard />                   
-            <ProductCard />                   
-            <ProductCard />                   
-            <ProductCard />                   
-            <ProductCard />                   
-            <ProductCard />                   
-            <ProductCard />                   
+            <ProductCard />
         </main>
     )
 }

@@ -1,5 +1,4 @@
 .header {    
     display: grid;
-    grid-template-rows: 60px 40px;
-       
+    grid-template-rows: 60px 40px;       
 }
