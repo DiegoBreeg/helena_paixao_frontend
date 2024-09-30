@@ -3,9 +3,9 @@
     display: grid;
     padding: 16px;
     gap: 16px;
-    grid-template-columns: repeat(3, 300px);
+    grid-template-columns: 290px 290px 290px;
     grid-auto-rows: 450px;
-    justify-content: center;
+    justify-content: center;    
 
 }
 

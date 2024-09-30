@@ -7,13 +7,7 @@ export function Main()
         <main className={styles.main}>
             <ProductCard />
             <ProductCard />
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
-            <ProductCard />
+            <ProductCard />                   
         </main>
     )
 }

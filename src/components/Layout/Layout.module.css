@@ -1,6 +1,7 @@
 .layout {
     background-color: #F2F3F4;
-    display: grid;
-    grid-template-rows: 100px auto 80px;
-
+    display: grid;    
+    grid-template-rows: 100px 1fr 80px;
+    grid-auto-columns: 100vw;
+    min-height: 100vh;    
 }
