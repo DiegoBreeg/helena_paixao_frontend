@@ -3,13 +3,15 @@
     display: grid;
     padding: 16px;
     gap: 16px;
-    grid-template-columns: 290px 290px 290px;
-    grid-auto-rows: 450px;
-    justify-content: center;    
+    grid-template-columns: 246px 246px 246px;
+    grid-auto-rows: 474px;
+    justify-content: center;
+    align-items: center;
+
 
 }
 
-@media (max-width: 600px)
+@media (max-width: 780px)
 {
     .main
     {
