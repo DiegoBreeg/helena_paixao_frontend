@@ -10,7 +10,7 @@
 
 .productCard:hover
 {
-    background-color: yellow;
+    background-color: blue;
     cursor: pointer;
 }
 
