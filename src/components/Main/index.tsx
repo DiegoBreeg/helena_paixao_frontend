@@ -7,8 +7,13 @@ export function Main()
     const products: ReactElement[] =
         [
             <ProductCard />,
-            <ProductCard />,           
-            
+            <ProductCard />,
+            <ProductCard />,
+            <ProductCard />,
+            <ProductCard />,
+            <ProductCard />,
+            <ProductCard />,
+            <ProductCard />,
         ]
 
 
